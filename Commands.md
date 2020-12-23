@@ -14,6 +14,9 @@ rm : remove a file
 rm filename : specify a file to be removed
 rm -f : forcefully remove a file
 
+git reset HEAD filename.format : Removes the stagged file from the stagging area
+git checkout -- filename.format : Resets the modified file to the last commited copy
+
 git log : Shows the commit logs
 git show : Shows the last commit and the diff with all the changes
 git ls-files : Lists all the files git is tracking
