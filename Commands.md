@@ -10,6 +10,10 @@ git commit : Commits changes and new files from the stagging area to the local g
 git commit -m "Enter Message" : Allows adding the commit message or description
 git commit -add : Adds a modified file to the stagging area and automatically commits it
 
+
+git rm file.format - removes the file immediately from the directory, 
+					but is still in stagging (confirm via commit)
+					
 rm : remove a file
 rm filename : specify a file to be removed
 rm -f : forcefully remove a file
