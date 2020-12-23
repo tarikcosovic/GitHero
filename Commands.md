@@ -14,6 +14,8 @@ rm : remove a file
 rm filename : specify a file to be removed
 rm -f : forcefully remove a file
 
+git mv example.txt newname.txt - renames the file and tracks it
+
 git reset HEAD filename.format : Removes the stagged file from the stagging area
 git checkout -- filename.format : Resets the modified file to the last commited copy
 
