@@ -18,8 +18,16 @@ git reset HEAD filename.format : Removes the stagged file from the stagging area
 git checkout -- filename.format : Resets the modified file to the last commited copy
 
 git log : Shows the commit logs
+git log --oneline : Simplified commit log
+git log --oneline --graph --decorate --all : Google these extra commands
 git show : Shows the last commit and the diff with all the changes
 git ls-files : Lists all the files git is tracking
+
+Making aliases:
+git config --global alis.YourAliasNAme "commands you want to mapp"
+Example:
+git config --global alias.hist "log --oneline --graph --decorate --all"
+This example will make an alias which we can use as ' git hist ' and would run the specified alias code
 
 Common and usefull Git Bash commands
 
