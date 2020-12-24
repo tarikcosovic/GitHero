@@ -29,8 +29,9 @@ git log --oneline --graph --decorate --all : Google these extra commands
 git show : Shows the last commit and the diff with all the changes
 git ls-files : Lists all the files git is tracking
 
-git diff commitID HEAD - Previews the difference between that commit and the current master
-git difftool commitID HEAD - Previews th differences in a visual tool like p4merge..
+git diff commitId HEAD : Previews the difference between that commit and the current master
+git difftool commitId HEAD : Previews th differences in a visual tool like p4merge..
+git diff / git difftool : After making a change to preview untracked/unstaged changes
 
 Making aliases:
 git config --global alis.YourAliasNAme "commands you want to mapp"
