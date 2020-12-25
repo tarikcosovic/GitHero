@@ -36,6 +36,7 @@ git diff branch1 branch2 : Previews the differences between two branches
 
 git branch : Previews the branches and highlights the current branch
 git branch name : Creates a branch with specified name
+git checout branchName : Switches to the specified branch
 git checkout -b branchName : Creates a branch with specified name and automatically switches to it
 
 *Special Markers:
