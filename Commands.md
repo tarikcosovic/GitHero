@@ -33,6 +33,10 @@ git diff commitId HEAD : Previews the difference between that commit and the cur
 git difftool commitId HEAD : Previews th differences in a visual tool like p4merge..
 git diff / git difftool : After making a change to preview untracked/unstaged changes
 
+git branch : Previews the branches and highlights the current branch
+git branch name : Creates a branch with specified name
+git checkout -b branchName : Creates a branch with specified name and automatically switches to it
+
 *Special Markers:
 HEAD - points to the last commit of current branch
 
