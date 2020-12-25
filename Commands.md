@@ -58,7 +58,3 @@ touch file.format : Create a new file with specified format
 cat file.format : Prints the file content
 start filename : Opens the specified file with its' default editor
 ls -al : Lists all the files in the current directory even hidden formats
-
-//These are my command extensions
--basdasd -
-asdasdas
