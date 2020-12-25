@@ -33,13 +33,16 @@ git diff commitId HEAD : Previews the difference between that commit and the cur
 git difftool commitId HEAD : Previews th differences in a visual tool like p4merge..
 git diff / git difftool : After making a change to preview untracked/unstaged changes
 
-Making aliases:
+*Special Markers:
+HEAD - points to the last commit of current branch
+
+*Making aliases:
 git config --global alis.YourAliasNAme "commands you want to mapp"
 Example:
 git config --global alias.hist "log --oneline --graph --decorate --all"
 This example will make an alias which we can use as ' git hist ' and would run the specified alias code
 
-Common and usefull Git Bash commands
+*Common and usefull Git Bash commands
 
 > file.format : Create a new file from git bash
 touch file.format : Create a new file with specified format
