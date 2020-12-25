@@ -38,6 +38,9 @@ git branch : Previews the branches and highlights the current branch
 git branch name : Creates a branch with specified name
 git checout branchName : Switches to the specified branch
 git checkout -b branchName : Creates a branch with specified name and automatically switches to it
+git branch -d branchName : Deletes a branch with the specified name
+
+git merge branchName : Merges the specified branch to the current branch
 
 *Special Markers:
 HEAD - points to the last commit of current branch
@@ -52,5 +55,6 @@ This example will make an alias which we can use as ' git hist ' and would run t
 
 > file.format : Create a new file from git bash
 touch file.format : Create a new file with specified format
+cat file.format : Prints the file content
 start filename : Opens the specified file with its' default editor
 ls -al : Lists all the files in the current directory even hidden formats

@@ -45,3 +45,5 @@ The old branch timeline is preserved and a merge commit is made in the parent br
 
 Happens when git is not able to resolve any merge conflicts. Git enters in a conflicting merge state, which means all conflicts must be resolved.
 Once all the conflicts are resolved the changes are saved as a merge commit and the child branch preserved.
+
+IMPORTANT: Once a branch has been merged there is no need for it anymore and we can simply delete the branch.
