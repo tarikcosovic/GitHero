@@ -32,6 +32,7 @@ git ls-files : Lists all the files git is tracking
 git diff commitId HEAD : Previews the difference between that commit and the current master
 git difftool commitId HEAD : Previews th differences in a visual tool like p4merge..
 git diff / git difftool : After making a change to preview untracked/unstaged changes
+git diff branch1 branch2 : Previews the differences between two branches
 
 git branch : Previews the branches and highlights the current branch
 git branch name : Creates a branch with specified name
