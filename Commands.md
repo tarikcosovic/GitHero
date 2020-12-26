@@ -45,6 +45,15 @@ git merge branchName : Merges the specified branch to the current branch
 git tag myTag : Creates a tag with specified name
 git tag --list : Lists all tags
 
+*Git Stash
+Git stash is used to temporarily hide the untracked/unstaged files on a seperate 'stash' so that you can work on
+other files without having to worry about stagging or commiting the previous files
+
+git stash : Temporarily Hides untracked/unstaged files
+git stash list : Lists all stashes
+
+git stash pop : Removes all stashed files from the stash
+
 *Special Markers:
 HEAD - points to the last commit of current branch
 
