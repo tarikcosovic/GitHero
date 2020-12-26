@@ -17,6 +17,9 @@ git remote add origin url : Adds remote repository with specified name(origin) a
 
 git push -u origin master --tags : Pushes to origin repo from master branch, --tags sends all the tags we have to remote repo
 
+An upstream branch is a remote branch that is tracked by a local branch
+using git push in an branch without an upstream remote branch will prompt the user to enter an upstream branch then we can use git push
+
 *Git SSH 
 ssh-keygen -t rsa -C "tarikcosovic@gmail.com" : Generates a private ssh key in current directory 
 
