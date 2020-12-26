@@ -44,6 +44,10 @@ git merge branchName : Merges the specified branch to the current branch
 
 git tag myTag : Creates a tag with specified name
 git tag --list : Lists all tags
+git tag -d myTag : Delets the specified tag
+
+git tag -a name -m "Message" : Creates an annotated tag with specified name and commit message
+git show tagName : Displays the tag info
 
 *Git Stash
 Git stash is used to temporarily hide the untracked/unstaged files on a seperate 'stash' so that you can work on
