@@ -20,6 +20,9 @@ git push -u origin master --tags : Pushes to origin repo from master branch, --t
 An upstream branch is a remote branch that is tracked by a local branch
 using git push in an branch without an upstream remote branch will prompt the user to enter an upstream branch then we can use git push
 
+git fetch : fetches all of the remote repo changes to our local repo
+git pull : fethces all of the remote repo changes to our local repo and merges the branches "WARNING" destrcutive command, be carefull
+
 *Git SSH 
 ssh-keygen -t rsa -C "tarikcosovic@gmail.com" : Generates a private ssh key in current directory 
 
