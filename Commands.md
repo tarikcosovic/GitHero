@@ -10,6 +10,15 @@ git commit : Commits changes and new files from the stagging area to the local g
 git commit -m "Enter Message" : Allows adding the commit message or description
 git commit -add : Adds a modified file to the stagging area and automatically commits it
 
+*Git Remote Repository
+
+git remote add origin url : Adds remote repository with specified name(origin) and url to repo
+-git remote -v : Lists all remote repositories
+
+git push -u origin master --tags : Pushes to origin repo from master branch, --tags sends all the tags we have to remote repo
+
+*Git SSH 
+ssh-keygen -t rsa -C "tarikcosovic@gmail.com" : Generates a private ssh key in current directory 
 
 git rm file.format - removes the file immediately from the directory, 
 					but is still in stagging (confirm via commit)
