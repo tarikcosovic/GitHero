@@ -42,6 +42,9 @@ git branch -d branchName : Deletes a branch with the specified name
 
 git merge branchName : Merges the specified branch to the current branch
 
+git tag myTag : Creates a tag with specified name
+git tag --list : Lists all tags
+
 *Special Markers:
 HEAD - points to the last commit of current branch
 
