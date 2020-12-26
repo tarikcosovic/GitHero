@@ -58,6 +58,27 @@ git stash list : Lists all stashes
 
 git stash pop : Removes all stashed files from the stash
 
+*Git Reset
+Resets the commits to specified commitId
+
+git reset commitId --mode
+
+modes: soft, mixed, hard
+
+1. soft mode is the least destructive mode and will only point the HEAD to the specified commitId, making zero changes to stagged/unstagged files
+2. mixed mode will point the HEAD to the specified commitId and unstagge all stagged files
+3. hard mode will point the HEAD to the specified commitId and remove all unstagged and stagged files
+
+Examples:
+git reset 2dc131b --soft : non-destructive reset
+git reset e37117a --mixed : mixed reset
+git reset 7301ec8 --hard : destructive reset 
+
+For special preview of all the commit and actions taken history use reflog
+
+Example:
+git reflog
+
 *Special Markers:
 HEAD - points to the last commit of current branch
 
